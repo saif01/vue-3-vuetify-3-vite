@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <h1>Vue 3 + Vuetify + Vite Application</h1>
+  <h1>Vue 3 + Vuetify + Vite Application Test</h1>
   {{ test }}
   <h3>{{ counter }}</h3>
 
