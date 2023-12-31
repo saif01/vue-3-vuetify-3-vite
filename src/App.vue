@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <NavBar />
+      <NavComponent />
       <v-container>
         <router-view />
       </v-container>
@@ -11,12 +11,12 @@
 
 <script>
 
-import NavBar from './views/common/Nav.vue'
+import NavComponent from './views/common/Nav.vue'
 
 export default {
 
   components: {
-    NavBar,
+    NavComponent,
   }
 
 
